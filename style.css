@@ -1,0 +1,360 @@
+/*---------Home Page-----------*/
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+/*----------Navbar----------------*/
+ #nv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #796087;
+}
+.left img{
+    width: 50px;
+  height: 50px;
+}
+#srh{
+    padding: .5rem;
+    font-size: 1rem;
+}
+#srh input{
+    list-style: none;
+    text-decoration: none;
+}
+.rf{
+    margin:5px;
+    font-size: 1.3rem;
+}
+.rf a{
+   color:whitesmoke;
+    text-decoration: none;
+    list-style: none;
+    padding:0px 10px;
+}
+.rf a:hover{
+    width:10px;
+    height:3px;
+    background-color:green;
+} /*----------Main Body----------------*/
+.bdy{
+    width: 100%;
+    height: auto;
+    background-color: blanchedalmond;
+     padding: 2rem;
+}
+.para{
+    line-height: 24px;
+    font-size: 1rem;
+}
+.imge{
+    text-align: center;
+}
+.rm a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.3rem;
+}
+.rm a:hover{
+    background-color: aqua;
+}
+/*----------Cards----------------*/
+.sty-places{
+    width:90%;
+    margin: 10px;
+    text-align: center;
+    margin:20px auto;
+}
+.card{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:20px;
+}
+.card1,.card2,.card3{
+    width:100%;
+    background-color:rgba(198, 220, 203, 0.945);
+    border-radius: 15px;
+}
+button{
+    padding: .2rem;
+    font-size: .9rem;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 5px;
+}
+/*----------footer----------------*/
+footer{
+    text-align: center;
+    align-items: center;
+    background-color: #796087;
+    padding: 10px 0px;
+    color: whitesmoke;
+    font-size: 25px;
+} 
+/*-------------------------------Gallery----------------------------------*/
+.form-data{
+    width: 500px;
+    height: fit-content;
+    background: pink;
+    justify-content: center;
+    align-items: center;
+    margin:10px auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+form{
+    padding: 10px 20px;
+    align-items: center;
+    text-align: center;
+}
+form input{
+     width:100%;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+form .check{
+    gap:10px;
+}
+form .name,.fname,.email,.ph-no,.cnic,.dob,.check{
+    display: flex;
+    gap:10px;
+    font-weight: normal;
+    font-size: 25px;
+}
+form .select{
+    font-weight: normal;
+    font-size: 25px;
+}
+form select{
+    padding: 5px;
+    font-size: 25px;
+}
+form .gender{
+    font-size: 20px;
+}
+form .check{display: flex;}
+form .gender{
+    display: flex;
+  }
+form .gender label{
+    font-size: 25px;
+    font-weight: normal;
+    display: flex;
+    gap: 10px;
+}
+form .check label{
+    font-size:25px;
+    font-weight: normal;
+    gap:10px;
+}
+form .comment label{
+    font-size:25px;
+    font-weight: normal;
+    gap:10px;
+}
+form .submit label{
+    font-size:25px;
+    font-weight: normal;
+}
+.submit input{
+    width:30%;
+    padding: none;
+}
+form .comment{
+    display: flex;
+}
+form #comment{
+    padding: 30px 50px;
+}
+/*-------------form paragraph------------*/
+.form-bdy{
+    width:80%;
+    justify-content: center;
+    margin: 20px auto;
+}
+.form-bdy h1{
+    margin: 5px 0px;
+}
+.form-bdy p{
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+/*--------------------------------About------------------------------*/
+  .all-content{
+    width: 80%;
+    margin:10px auto;
+    border-radius: 50px;
+    padding:20px 40px;
+    background: rgba(342, 111, 234, 0.125);
+  }
+  .proj-auth{
+    line-height: 20px;
+  }
+  .proj-auth h1{
+    margin:5px auto;
+  }
+  .proj-name h1{
+    margin:5px auto;
+  }
+  .proj-name p{
+    margin:5px auto;
+  }
+  .proj-bdy h3{
+     margin:5px;
+  }
+ #gb{
+    text-align: center;
+ }
+  #auth-img{
+    width:60px;
+    height:70px;
+    padding:2px 5px;
+  }
+#vis{
+    display: none;
+  }
+  /*--------------------Contact-----------------------*/
+  .contact-details{
+     width: 80%;
+     margin:20px auto;
+     padding:8px auto;
+    }
+    /*--------------------Feedback-----------------------*/
+  .table-content{
+    width: 90%;
+    justify-content: center;
+    margin:20px auto;
+    padding:20px;
+   }
+   #table-details table{
+       width:100%;
+       background-color: black;
+       color:white;
+       text-align: center;
+   }
+   /*-------------------------Service----------*/
+   .service{
+    width: 60%;
+    margin:20px auto;
+    font-size: 30px;
+   }
+   #info{
+    width:80%;
+     background-color: rgb(30, 77, 77);
+     margin:10px;
+     padding:20px;
+     text-align: center;
+     font-size: 50px;
+     color: blue;
+   }
+@media(max-width:730px){
+    .card{
+        flex-direction: column;
+    }
+    #srh{
+        padding-right: 50px;
+        margin-left: 10px;
+    }
+    .left img{
+        width:60px;
+        height: 75px;
+    }
+    .bdy{
+        padding:0.2rem;
+    }
+    .para{
+        margin-top: 0px;
+    }
+    .rm a{
+        font-size: 1rem;
+    }
+    footer{
+        font-size: 20px;
+    }
+    .form-data{
+        width:400px;
+    }
+    form input{
+        width: 100%;
+        font-size: 15px;
+    }
+    form #sb{
+        align-items: center;
+        text-align: center;
+    }
+    form #comment{
+        padding: 20px 12px;
+    }
+    form label{
+        font-size: 15px;
+    }
+    form .gender label {
+        font-size: 15px;
+    }
+    form .comment label{
+        font-size: 15px;
+    }
+     form .check label{
+        font-size: 15px;
+    }
+    form .check{
+        font-size: 15px;
+    }
+      form .submit label{
+        font-size: 15px;
+    }
+    .table-content table{
+        width:100%;
+    }
+    .service{
+        width: 60%;
+        margin:20px auto;
+        font-size: 20px;
+       }
+       #info{
+        width:80%;
+         background-color: rgb(30, 77, 77);
+         margin:10px;
+         padding:20px;
+         text-align: center;
+         font-size: 30px;
+         color: blue;
+       }
+    @media(max-width:400px){
+        .form-data{
+            width:100%;
+            padding: 0px;
+        }
+        .form input{
+            width: 100%;
+        }
+        form{
+            width: 100%;
+        }
+        #table-details table{
+            width:100%;
+            overflow-x: auto;
+        }
+        .service{
+            width: 60%;
+            margin:20px auto;
+            font-size: 15px;
+           }
+           #info{
+            width:80%;
+             background-color: rgb(30, 77, 77);
+             margin:8px;
+             padding:12px;
+             text-align: center;
+             font-size: 15px;
+             color: blue;
+           }
+    }
+}
+
+
